@@ -1,6 +1,6 @@
-## CRUD Blog App with Mern Stack
+## CRUD Blog App (Front End)
 
-A full stack CRUD blog app made with the MERN stack.
+A CRUD blog app made with the React and localStorage.
 Users must sign in to use the app.
 
 Live Version:
