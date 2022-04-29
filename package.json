@@ -44,5 +44,6 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "Sajad Mahyaei",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {"node": "16.14.0"}
 }
