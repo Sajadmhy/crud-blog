@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;502&family=Open+Sans:wght@549&family=Poppins:wght@400;700;900&family=Roboto&display=swap');
+
+
+/* ===================================================SIGNUP PAGE CSS==========================================================*/
+.login-signup-mainframe{
+  position: absolute;
+  display: flex;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto ;
+
+ 
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+
+  background: #FFFFFF;
+  justify-content: center;
+}
+
+.title-frame{
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+#signup-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+
+  color: #333333;
+}
+
+#signup-title:hover{
+  font-weight: 900;
+  color: #0575E6;
+}
+
+#login-prompt-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #333333;
+
+  opacity: 0.7;
+}
+
+#login-prompt-text:hover{
+  color: #0575E6;
+}
+
+
+#bold{
+  font-weight: bold;
+}
+
+/*===============   FIRST NAME       ======================  */
+
+#firstname-signup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 18px 26px;
+  margin: 17px;
+
+
+  width: 315px;
+  height: 64.88px;
+  left: 562px;
+  top: 222px;
+  
+
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 30px;
+
+}
+
+#firstname-signup:hover{
+  border: 1.5px solid #cccccc;
+}
+
+#firstname-signup-placeholder{
+  position: static;
+  width: auto;
+  height: auto;
+
+  left: 26px;
+  top: 20.44px;
+  
+
+  /* Inside auto layout */
+  display: flex;
+  flex-direction: row;
+
+  order: 0;
+  flex-grow: 0;
+  
+  margin: 10px 0px;
+  
+  
+}
+
+
+#firstname-text-signup{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+
+
+  border: none;
+  width: auto;
+  height: auto;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  outline: none;
+
+  color: #333333;
+
+  opacity: 0.3;
+}
+
+#firstname-text-signup:hover{
+  opacity: 0.6;
+}
+
+#firstname-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+#firstname-icon:hover{
+  opacity: 0.6;
+}
+
+
+
+/* =======================   LAST NAME   =============================== */
+#lastname-signup{
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 18px 26px;
+  margin: 17px;
+  width: 315px;
+  height: 64.88px;
+  left: 562px;
+  top: 304px;
+
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 30px;
+
+}
+#lastname-signup:hover{
+  border: 1.5px solid #cccccc;
+}
+
+#lastname-signup-placeholder{
+  
+  position: static;
+  left: 26px;
+  top: 20.44px;
+
+  width: auto;
+  height: auto;
+
+  /* Inside auto layout */
+
+  display: flex;
+  flex-direction: row;
+
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+
+}
+
+#lastname-text-signup{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  border: none;
+  /* identical to box height */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+
+  outline: none;
+
+  color: #333333;
+  
+  
+  opacity: 0.3;
+}
+
+
+#lastname-text-signup:hover{
+  opacity: 0.6;
+}
+
+#lastname-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+#lastname-icon:hover{
+  opacity: 0.6;
+}
+
+/* ==========================   USERNAME  ===================================== */
+#username-signup{
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 18px 26px;
+  margin: 17px;
+
+  /*position: absolute;*/
+  width: 315px;
+  height: 64.88px;
+  left: 562px;
+  top: 386px;
+
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 30px;
+
+}
+
+#username-signup:hover{
+  border: 1.5px solid #cccccc;
+}
+
+#username-signup-placeholder{
+  position: static;
+  width: auto;
+  height: auto;
+  left: 26px;
+  top: 20.44px;
+
+
+  /* Inside auto layout */
+
+  /*flex: none;*/
+
+  display: flex;
+  flex-direction: row;
+
+
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+
+}
+
+#username-text-signup{
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+
+  outline: none;
+  border: none;
+
+  color: #333333;
+
+  opacity: 0.3;
+
+}
+
+#username-text-signup:hover{
+  opacity: 0.6;
+}
+
+#username-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+#username-icon:hover{
+  opacity: 0.6;
+}
+
+/*  ===================   PASSWORD  =========================*/
+#password-signup{
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 18px 26px;
+  margin: 17px;
+
+  width: 315px;
+  height: 64.88px;
+  left: 562px;
+  top: 468px;
+
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 30px;
+
+}
+#password-signup:hover{
+  border: 1.5px solid #cccccc;
+}
+
+#password-signup-placeholder{
+  position: static;
+  width: auto;
+  height: auto;
+  left: 26px;
+  top: 20.44px;
+
+  display: flex;
+  flex-direction: row;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+
+
+}
+
+#password-text-signup{
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+
+  outline: none;
+  border: none;
+
+  color: #333333;
+
+  opacity: 0.3;
+
+
+}
+
+#password-text-signup:hover{
+  opacity: 0.6;
+}
+
+#password-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+#password-icon:hover{
+  opacity: 0.6;
+}
+
+/*   CONFIRM PASSWORD   */
+#confirm-password-signup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 18px 26px;
+  margin: 17px;
+  
+  width: 315px;
+  height: 64.88px;
+  left: 562px;
+  top: 549px;
+  
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 30px;
+
+}
+#confirm-password-signup:hover{
+  border: 1.5px solid #cccccc;
+}
+
+#confirm-password-signup-placeholder{
+  position: static;
+  width: auto;
+  height: auto;
+  left: 26px;
+  top: 20.44px;
+
+
+  /* Inside auto layout */
+
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+
+}
+
+#confirm-password-text-signup{
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+
+  outline: none;
+  border: none;
+
+  color: #333333;
+
+  opacity: 0.3;
+
+
+
+}
+
+#confirm-password-text-signup:hover{
+  opacity: 0.6;
+}
+
+
+
+.sign-up-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 26px;
+  margin: 15px;
+  width: 315px;
+  height: 61.63px;
+  left: 562px;
+  top: 630px;
+  border: none;
+
+  background: #0575E6;
+  border-radius: 30px;
+}
+
+.sign-up-button:hover{
+  opacity: 0.87;
+}
+
+
+.sign-up-button-text{
+  position: static;
+  width: 133px;
+  height: 21px;
+  left: 91px;
+  top: 20.32px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px
+
+}

@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;502&family=Open+Sans:wght@549&family=Poppins:wght@400;500;700;900&family=Roboto&display=swap');
+
+/* ==============================NAVBAR CSS===================================*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #F7F7F7;
+
+
+    width: auto;
+    height: auto;
+    
+}
+
+
+#navbar-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 100px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #333333;
+}
+
+#navbar-title:hover{
+    font-weight: 900;
+    color: #0575E6;
+}
+
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    width: auto;
+    height: auto;
+}
+
+.navbar-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+}
+
+.navbar-item:hover{
+    font-weight: 500;
+}
+
+#logout-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0575E6;
+    line-height: 24px;
+    /* identical to box height */
+    text-transform: capitalize;
+
+}
+
+/*BURGER BUTTON*/
+#navbar-button:hover{
+    color: #0575E6;
+}
+
+.menu-bar-container{
+    background-color: #F7F7F7;
+    position: absolute;
+    left: 55%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+
+
+
+/* ===============================MAIN BODY CSS=========================================*/
+.main-box{
+    /*CENTER IN THE PAGE*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+    
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 40px;
+
+    
+}
+
+#search-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: #F7F7F7;
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    border-radius: 7px;
+    overflow: hidden;
+
+    order: 0;
+    flex-grow: 0;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+#search-text{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: auto;
+    height: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    /* identical to box height */
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    background: #F6F6F6;
+}
+
+
+.card-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 98.54px;
+    width: 397px;
+    
+    background: #F6F6F6;
+
+    margin-bottom: 10px;
+
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 100px;
+
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.card-body-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: auto;
+    height: auto;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+
+
+    word-wrap:break-word;
+    
+}
+
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  
+
+    
+    margin-right: 30px;
+
+    background: #F6F6F6;
+    width: 87px;
+    height: auto;
+}
+
+
+.author-box{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+    background: #F6F6F6;
+    width: auto;
+    height: auto;
+
+
+}
+
+.author-icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+
+    
+    margin-right: 10px;
+}
+
+
+.author-text{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    width: auto;
+    height: auto;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 25px;
+}
+
+.date-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background: #F6F6F6;
+    width: auto;
+    height: auto;
+}
+
+.date-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 25px;
+}
+
+
+.comment-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background: #F6F6F6;
+    width: auto;
+    height: auto;
+}
+
+.comment-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 25px;
+}
+
+
+
+/*==================================TABLET/MOBILE CARD DESIGN====================================*/
+
+.card-box-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 184px;
+    width: 300px;
+    background: #F6F6F6;
+
+    margin-bottom: 10px;
+
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.content-box-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 100px;
+
+}
+
+
+
+.card-title-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.card-body-text-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: auto;
+    height: auto;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+
+    word-wrap:break-word;
+    
+}
+
+
+.info-box-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+
+    
+    background: #F6F6F6;
+    width: auto;
+    height: auto;
+}
+
+
+.author-box-mobile{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+    background: #F6F6F6;
+    width: auto;
+    height: auto;
+
+
+}
+
+.author-icon-mobile{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+
+    margin-right: 5px;
+}
+
+
+.author-text-mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    width: auto;
+    height: auto;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+.date-box-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background: #F6F6F6;
+    width: auto;
+    height: auto;
+}
+
+.date-text-mobile{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+
+.comment-box-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background: #F6F6F6;
+    width: auto;
+    height: auto;
+}
+
+.comment-text-mobile{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+
+
+/*  ============================FOOTER CSS======================*/
+
+#footer{
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    background-color: #F7F7F7;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
